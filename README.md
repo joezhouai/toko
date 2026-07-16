@@ -1,6 +1,6 @@
-> **⚠️ WARNING: This is a PUBLIC repository. See [WARNING.md](./WARNING.md) for what NOT to add.**
+> **ℹ️ Note: This is a PUBLIC repository containing documentation and examples only.**
 > 
-> **警告：这是公开仓库。添加内容前请阅读 [WARNING.md](./WARNING.md)。**
+> **说明：这是公开仓库，仅包含文档和示例代码。核心项目代码和数据库不在此处。**
 
 ---
 
