@@ -1,3 +1,9 @@
+> **⚠️ WARNING: This is a PUBLIC repository. See [WARNING.md](./WARNING.md) for what NOT to add.**
+> 
+> **警告：这是公开仓库。添加内容前请阅读 [WARNING.md](./WARNING.md)。**
+
+---
+
 # TokoAI - AI-Powered B2B Customer Acquisition
 
 [![Website](https://img.shields.io/badge/website-51toko.com-blue)](https://51toko.com)
