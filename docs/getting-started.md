@@ -86,7 +86,7 @@ As of 2026-08-07, 2,054 tracked cold emails (business-mail basis): unique open r
 
 - **Email**: toko@51toko.com
 - **Website**: [https://51toko.com](https://51toko.com)
-- **Documentation**: [https://51toko.com/docs](https://51toko.com/docs)
+- **Documentation**: [51Toko Docs on GitHub](https://github.com/joezhouai/toko/tree/main/docs)
 - **Compliance**: [https://51toko.com/compliance/](https://51toko.com/compliance/)
 
 ## 🎓 Next Steps
