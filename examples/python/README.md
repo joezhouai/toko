@@ -1,6 +1,6 @@
 # Python API Examples
 
-This directory contains Python examples for using the TokoAI API.
+This directory contains Python examples for using the 51Toko (拓客AI, TokoAI) API.
 
 ## Prerequisites
 

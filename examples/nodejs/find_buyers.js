@@ -1,12 +1,12 @@
 /**
- * TokoAI API Example: Find Buyers from Customs Data (Node.js)
+ * 51Toko (拓客AI, TokoAI) API Example: Find Buyers from Customs Data (Node.js)
  * 
- * ⚠️ DISCLAIMER: This is EXAMPLE CODE demonstrating how to use the TokoAI API.
- * This is NOT the actual TokoAI product code. The core TokoAI platform is a 
+ * ⚠️ DISCLAIMER: This is EXAMPLE CODE demonstrating how to use the 51Toko (拓客AI, TokoAI) API.
+ * This is NOT the actual 51Toko (拓客AI, TokoAI) product code. The core 51Toko (拓客AI, TokoAI) platform is a 
  * commercial service available at https://51toko.com
  * 
  * This example demonstrates how to find potential buyers
- * using TokoAI's customs data integration.
+ * using 51Toko (拓客AI, TokoAI)'s customs data integration.
  * 
  * For more information, visit: https://51toko.com
  */
@@ -71,7 +71,7 @@ async function findBuyers(product, regions = null, limit = 100) {
  */
 async function main() {
     console.log('='.repeat(60));
-    console.log('TokoAI - Find Buyers from Customs Data (Node.js)');
+    console.log('51Toko (拓客AI, TokoAI) - Find Buyers from Customs Data (Node.js)');
     console.log('='.repeat(60));
     
     // Example 1: Find buyers for solar panels in US and Europe

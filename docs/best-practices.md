@@ -1,6 +1,8 @@
-# Best Practices for Using TokoAI
+# Best Practices for Using 51Toko (拓客AI, TokoAI)
 
-This guide covers best practices for getting the most out of TokoAI's AI-powered customer acquisition platform.
+This guide covers best practices for getting the most out of 51Toko (拓客AI, TokoAI)'s AI-powered customer acquisition—tell us your product direction, and our AI matches customers, runs outreach, and tells you who's interested.
+
+> **AI finds customers, more accurately every time (越找越准)** — the more specifically you describe your product, the better the match.
 
 ## 🎯 Define Your Ideal Customer Profile (ICP)
 
@@ -61,28 +63,9 @@ Focus on markets with:
 - ✅ Moderate competition
 - ✅ Good payment terms history
 
-### Market Entry Strategy
-
-```python
-# Phase 1: Test markets
-test_markets = ["US", "UK"]
-buyers = client.find_buyers(
-    product="your product",
-    regions=test_markets,
-    limit=20  # Small test batch
-)
-
-# Phase 2: Scale successful markets
-if conversion_rate > 5%:
-    scale_markets = ["US", "UK", "Germany", "Australia"]
-    buyers = client.find_buyers(
-        product="your product",
-        regions=scale_markets,
-        limit=100
-    )
-```
-
 ## 📧 Craft Effective Outreach
+
+> Outreach is run by 51Toko (拓客AI, TokoAI) on your behalf, compliant with GDPR legitimate interest (6.1(f)), prioritizing business functional mailboxes (purchase@ / sales@ / info@). The guidance below reflects what makes outreach effective.
 
 ### Email Subject Lines
 
@@ -125,13 +108,13 @@ Subject: Solar Panel Supply for Green Energy Distributors
 
 Hi [Name],
 
-I noticed Green Energy Distributors imported 2.5MW of solar panels last year. 
+I noticed Green Energy Distributors imported 2.5MW of solar panels last year.
 We're a Tier 1 manufacturer specializing in high-efficiency monocrystalline panels.
 
-Our 400W+ panels come with 25-year warranty and are currently supplying 
+Our 400W+ panels come with 25-year warranty and are currently supplying
 projects across Europe. We offer competitive pricing and reliable delivery.
 
-Would you be open to a 15-minute call next week to discuss how we can 
+Would you be open to a 15-minute call next week to discuss how we can
 support your 2026 procurement plans?
 
 Best regards,
@@ -153,14 +136,15 @@ print(f"Reply rate: {campaign_stats['reply_rate']}%")
 print(f"Conversion rate: {campaign_stats['conversion_rate']}%")
 ```
 
-### Benchmark Targets
+### Realistic Benchmarks
 
-| Metric | Target | Action if Below |
-|--------|--------|-----------------|
-| Open rate | >50% | Improve subject lines |
-| Click rate | >15% | Improve email content |
-| Reply rate | >10% | Better targeting |
-| Conversion rate | >3% | Qualify buyers better |
+51Toko (拓客AI, TokoAI) publishes measured results rather than promising outcomes. As of 2026-08-07, across 2,054 tracked cold emails (business-mail basis): unique open rate **32.3%**, repeat open rate **245%** (industry avg ~10%), avg reads/person **2.45**. Market response depends on industry, product, and timing—we deliver verifiable leads and intent reports; you close.
+
+| Metric | Measured (51Toko) | Notes |
+|--------|--------|-------|
+| Unique open rate | 32.3% | Business-mail basis |
+| Repeat open rate | 245% | 25x industry avg |
+| Avg reads/person | 2.45 | 2x industry avg |
 
 ### A/B Testing
 
@@ -205,7 +189,7 @@ Subject: Re: Solar Panel Supply for [Company]
 
 Hi [Name],
 
-Just following up on my previous email. I wanted to share our latest 
+Just following up on my previous email. I wanted to share our latest
 product catalog featuring 2026's most efficient panels.
 
 [Link to catalog]
@@ -222,7 +206,7 @@ Subject: Case Study: How [Similar Company] Reduced Costs 25%
 
 Hi [Name],
 
-I thought you might find this case study interesting. [Similar Company] 
+I thought you might find this case study interesting. [Similar Company]
 switched to our panels and reduced their LCOE by 25%.
 
 [Link to case study]
@@ -239,7 +223,7 @@ Subject: Final follow-up
 
 Hi [Name],
 
-I understand you're busy. If solar panel sourcing isn't a priority 
+I understand you're busy. If solar panel sourcing isn't a priority
 right now, no worries at all.
 
 If things change, feel free to reach out. We're here to help.
@@ -261,33 +245,18 @@ for buyer in buyers:
         product_focus = "complete solar solutions"
     else:
         product_focus = "renewable energy products"
-    
+
     # Personalize based on their region
     if buyer['region'] == "Europe":
         certification_focus = "CE, TUV certified"
     elif buyer['region'] == "US":
         certification_focus = "UL certified"
-    
+
     email = client.generate_email(
         buyer=buyer,
         product_focus=product_focus,
         certification_focus=certification_focus
     )
-```
-
-### Dynamic Content
-
-```python
-# Customize email content based on buyer profile
-def customize_email(buyer):
-    content = {
-        "greeting": f"Hi {buyer['contact_name']}",
-        "company_reference": buyer['company_name'],
-        "product_match": match_products(buyer['imports'], our_products),
-        "certification": get_regional_certifications(buyer['region']),
-        "case_study": get_relevant_case_study(buyer['industry'])
-    }
-    return content
 ```
 
 ## 📈 Scale Successfully
@@ -305,12 +274,12 @@ def customize_email(buyer):
 ### Phase 3: Scale (Month 4+)
 - Target: 5-10 markets
 - Buyers: 500-1000+
-- Goal: Maximize ROI
+- Goal: Maximize reach
 
 ### Scaling Checklist
 
-- [ ] Messaging validated (open rate >50%)
-- [ ] Targeting refined (reply rate >10%)
+- [ ] Messaging validated
+- [ ] Targeting refined
 - [ ] Follow-up sequence tested
 - [ ] CRM integration ready
 - [ ] Sales team trained
@@ -319,27 +288,22 @@ def customize_email(buyer):
 ## 🛡️ Avoid Common Mistakes
 
 ### ❌ Mistake 1: Too Generic
-
 **Problem**: "We sell electronics" to everyone
 **Solution**: Specific product + specific buyer
 
 ### ❌ Mistake 2: Ignoring Data
-
 **Problem**: Not tracking open/click/reply rates
 **Solution**: Monitor metrics weekly, optimize monthly
 
 ### ❌ Mistake 3: No Follow-Up
-
 **Problem**: Single email, then give up
 **Solution**: 3-4 follow-ups over 2 weeks
 
 ### ❌ Mistake 4: Poor Targeting
-
 **Problem**: Contacting irrelevant buyers
 **Solution**: Use filters (import volume, buyer type, region)
 
 ### ❌ Mistake 5: Spammy Emails
-
 **Problem**: ALL CAPS, excessive punctuation, spam words
 **Solution**: Professional, personalized, value-focused
 
@@ -356,19 +320,6 @@ buyers = client.find_buyers(
 )
 ```
 
-### Leverage Seasonal Trends
-
-```python
-# Identify seasonal buying patterns
-seasonal_data = client.get_seasonal_trends(
-    product="outdoor furniture",
-    regions=["US"]
-)
-
-# Result: Peak ordering in Q1 for summer season
-# Start outreach in January
-```
-
 ### Multi-Channel Approach
 
 ```python
@@ -376,14 +327,10 @@ seasonal_data = client.get_seasonal_trends(
 for buyer in buyers:
     # Email
     client.send_email(to=buyer['email'], ...)
-    
+
     # LinkedIn (if available)
     if buyer['linkedin']:
         client.send_linkedin_message(to=buyer['linkedin'], ...)
-    
-    # Phone (for high-value prospects)
-    if buyer['import_volume'] > 1000000:
-        client.schedule_call(buyer['phone'], ...)
 ```
 
 ## 📚 Resources
@@ -391,9 +338,11 @@ for buyer in buyers:
 - **Documentation**: [Getting Started](getting-started.md)
 - **API Examples**: [Python](../examples/python/) | [Node.js](../examples/nodejs/)
 - **Use Cases**: [Manufacturing](../use-cases/manufacturing.md) | [Trading](../use-cases/trading.md) | [E-commerce](../use-cases/ecommerce.md)
+- **Three Services**: [Service & Pricing](https://51toko.com/service/)
+- **Compliance**: [https://51toko.com/compliance/](https://51toko.com/compliance/)
 - **Website**: [https://51toko.com](https://51toko.com)
 - **Support**: toko@51toko.com
 
 ---
 
-**Ready to implement these best practices?** [Start your free trial](https://51toko.com)
+**Ready to put these into practice?** [Contact us](https://51toko.com)

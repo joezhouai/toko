@@ -8,9 +8,9 @@ You're a trading company connecting suppliers with buyers, but struggling to:
 - Stay ahead of market trends
 - Scale your buyer network efficiently
 
-## Solution: TokoAI for Trading Companies
+## Solution: 51Toko (拓客AI, TokoAI) for Trading Companies
 
-TokoAI helps trading companies discover market opportunities and connect with active importers globally.
+51Toko (拓客AI, TokoAI) helps trading companies discover market opportunities and connect with active importers globally.
 
 ### How It Works
 
@@ -89,7 +89,7 @@ multi_category_buyers = client.find_buyers_multi(
 print(f"Found {len(multi_category_buyers)} multi-category buyers")
 ```
 
-## Real-World Example
+## Illustrative Example (fictional)
 
 ### Scenario: General Trading Company in Shenzhen
 
@@ -103,7 +103,7 @@ print(f"Found {len(multi_category_buyers)} multi-category buyers")
 - Limited sales team (3 people)
 - Competing with other trading companies
 
-**Solution with TokoAI**:
+**Solution with 51Toko (拓客AI, TokoAI)**:
 
 ```python
 # Step 1: Identify high-demand products
@@ -140,19 +140,13 @@ for buyer in smart_home_buyers:
     client.send_email(to=buyer['email'], subject=email['subject'], body=email['body'])
 ```
 
-**Results after 60 days**:
-- **Leads generated**: 180 qualified buyers
-- **Email open rate**: 72%
-- **Reply rate**: 15%
-- **Samples sent**: 45
-- **Orders closed**: 12 new buyers
-- **Annual revenue from new buyers**: $1.8M
-- **Average order value**: $150k
+**Results after 60 days** (演示流程，公司名为虚构示例，不对应真实客户，不代表成交结果):
+- 从趋势分析到触达的一轮工作流示例
+- 实际打开 / 回复 / 成交取决于行业、产品、名单质量与你的跟进
 
-**ROI**:
-- TokoAI subscription: $1,500/month
-- Additional sales team cost avoided: $60k/year
-- **Net benefit**: $72k+ in first year
+**可参考的公开实测（非承诺）：**
+- 截至 2026-08-07，累计 2,054 封可追踪冷邮件（企业邮箱口径）：独立打开率 32.3%、重复打开率 245%、人均阅读 2.45 次
+- 51Toko（拓客AI, TokoAI）按项目计费（报价按范围确定）；我们不保证具体成交，交付可核实的对口买家与意向报告
 
 ## Key Benefits for Trading Companies
 
@@ -263,7 +257,7 @@ for buyer in buyers:
         email=buyer['email'],
         phone=buyer['phone'],
         country=buyer['country'],
-        source="TokoAI",
+        source="51Toko (拓客AI, TokoAI)",
         potential_volume=buyer['import_volume']
     )
 ```
@@ -304,14 +298,14 @@ Track these KPIs:
 
 ## Conclusion
 
-TokoAI helps trading companies:
+51Toko (拓客AI, TokoAI) helps trading companies:
 - ✅ Discover market opportunities faster
 - ✅ Find qualified buyers across multiple product categories
 - ✅ Match suppliers with buyers efficiently
 - ✅ Scale operations without scaling headcount
 - ✅ Stay ahead of market trends
 
-**Ready to grow your trading business?** [Start your free trial](https://51toko.com)
+**Ready to grow your trading business?** [Contact us](https://51toko.com)
 
 ---
 

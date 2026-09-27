@@ -5,18 +5,18 @@
 You're a manufacturer exporting products globally, but struggling to:
 - Find qualified overseas buyers
 - Identify companies actively importing your product category
-- Reach decision-makers efficiently
+- Reach the right contacts efficiently
 - Track which buyers are genuinely interested
 
-## Solution: TokoAI for Manufacturers
+## Solution: 51Toko (拓客AI, TokoAI) for Manufacturers
 
-TokoAI helps manufacturers find overseas buyers by analyzing global trade data and matching you with companies that are actively importing products like yours.
+51Toko (拓客AI, TokoAI) helps manufacturers find overseas buyers by analyzing global trade data and matching you with companies that are actively importing products like yours.
 
 ### How It Works
 
 #### Step 1: Define Your Product
 
-Tell TokoAI what you manufacture:
+Tell 51Toko (拓客AI, TokoAI) what you manufacture:
 
 ```python
 from toko import TokoClient
@@ -34,7 +34,7 @@ buyers = client.find_buyers(
 
 #### Step 2: AI Matches Buyers
 
-TokoAI analyzes:
+51Toko (拓客AI, TokoAI) analyzes:
 - **Customs data**: Who is importing solar panels?
 - **Trade records**: Import volumes and frequency
 - **Company profiles**: Business type, size, location
@@ -85,7 +85,7 @@ print(f"Clicked: {engagement['clicked']} ({engagement['click_rate']}%)")
 print(f"Replied: {engagement['replied']}")
 ```
 
-## Real-World Example
+## Illustrative Example (fictional)
 
 ### Scenario: Chinese Solar Panel Manufacturer
 
@@ -98,7 +98,7 @@ print(f"Replied: {engagement['replied']}")
 - Cold calling is inefficient
 - Need to find distributors, not end consumers
 
-**Solution with TokoAI**:
+**Solution with 51Toko (拓客AI, TokoAI)**:
 
 ```python
 # Find European solar panel importers
@@ -118,29 +118,21 @@ buyers = client.find_buyers(
 - Highlighted Tier 1 certification and warranty
 - Included product catalog link
 
-**Results after 30 days**:
-- **Open rate**: 68% (industry average: 15-20%)
-- **Click rate**: 23% (industry average: 2-5%)
-- **Reply rate**: 12% (24 positive replies)
-- **Meetings booked**: 18
-- **Deals closed**: 6 distributors
-- **Annual contract value**: $2.4M
+> 上述为演示流程（公司名为虚构示例），不对应任何真实客户，也不代表成交结果。51Toko（拓客AI, TokoAI）不保证具体成交。
 
-**ROI**:
-- TokoAI subscription: $500/month
-- Traditional trade show: $50,000+
-- **Savings**: $47,500+
-- **Better results**: More qualified leads, faster conversion
+**可参考的公开实测（非承诺）：**
+- 截至 2026-08-07，累计 2,054 封可追踪冷邮件（企业邮箱口径）：独立打开率 32.3%、重复打开率 245%、人均阅读 2.45 次
+- 真实成交取决于行业、产品、时机与你的跟进；我们公开实测打开率与匹配过程，交付可核实的对口买家与意向报告，成交由你完成
 
 ## Key Benefits for Manufacturers
 
 ### 1. Access to Global Trade Data
 
-TokoAI provides access to:
-- Customs import/export records from 50+ countries
-- Bill of lading data
-- Trade show exhibitor lists
-- Industry directories
+51Toko (拓客AI, TokoAI) provides access to:
+- Customs import records (UK / EU / US / global customs)
+- Government procurement award data (EU / US / Australia, etc.)
+- Trade-show exhibitor and buyer lists (Canton Fair, CIFTIS, CSA-EXPO, etc.)
+- Public company information
 
 ### 2. Precise Buyer Matching
 
@@ -155,12 +147,12 @@ AI matches based on:
 Compare costs:
 - **Trade shows**: $50k-$100k per show (booth, travel, materials)
 - **Sales team**: $100k+ per year (salary, commission, travel)
-- **TokoAI**: $500-$2000 per month (scalable, measurable)
+- **51Toko (拓客AI, TokoAI)**: 按项目计费，报价按范围（范围越大、名单越多可议价）
 
 ### 4. Faster Time to Market
 
 - **Traditional**: 3-6 months to find and qualify buyers
-- **TokoAI**: 1-2 weeks to get qualified leads
+- **51Toko (拓客AI, TokoAI)**: 1-2 weeks to get qualified leads
 
 ### 5. Data-Driven Decisions
 
@@ -211,7 +203,7 @@ Monitor:
 
 ### CRM Integration
 
-Sync TokoAI leads with your CRM:
+Sync 51Toko (拓客AI, TokoAI) leads with your CRM:
 
 ```python
 # Export leads to CSV for CRM import
@@ -226,7 +218,7 @@ for buyer in buyers:
         company=buyer['company_name'],
         email=buyer['email'],
         phone=buyer['phone'],
-        source="TokoAI",
+        source="51Toko (拓客AI, TokoAI)",
         notes=f"Import volume: {buyer['import_volume']}"
     )
 ```
@@ -263,14 +255,14 @@ Track these KPIs:
 
 ## Conclusion
 
-TokoAI helps manufacturers:
+51Toko (拓客AI, TokoAI) helps manufacturers:
 - ✅ Find qualified overseas buyers faster
-- ✅ Reduce customer acquisition costs by 50%+
+- ✅ Lower customer acquisition cost (具体以项目实测为准，不承诺固定比例)
 - ✅ Access global trade data instantly
 - ✅ Track engagement in real-time
 - ✅ Scale internationally with confidence
 
-**Ready to grow your export business?** [Start your free trial](https://51toko.com)
+**Ready to grow your export business?** [Contact us](https://51toko.com)
 
 ---
 

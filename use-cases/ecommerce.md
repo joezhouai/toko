@@ -8,9 +8,9 @@ You're a cross-border e-commerce business looking to expand into B2B, but strugg
 - Identify distributors and retailers
 - Scale beyond marketplace platforms
 
-## Solution: TokoAI for E-commerce
+## Solution: 51Toko (拓客AI, TokoAI) for E-commerce
 
-TokoAI helps e-commerce businesses find B2B buyers and expand into wholesale distribution.
+51Toko (拓客AI, TokoAI) helps e-commerce businesses find B2B buyers and expand into wholesale distribution.
 
 ### How It Works
 
@@ -73,7 +73,7 @@ for buyer in buyers:
     )
 ```
 
-## Real-World Example
+## Illustrative Example (fictional)
 
 ### Scenario: Amazon Seller Expanding to B2B
 
@@ -88,7 +88,7 @@ for buyer in buyers:
 - Need to find retailers and distributors
 - Limited B2B sales experience
 
-**Solution with TokoAI**:
+**Solution with 51Toko (拓客AI, TokoAI)**:
 
 ```python
 # Step 1: Find retailers importing phone accessories
@@ -128,19 +128,13 @@ for buyer in all_buyers:
     client.send_email(to=buyer['email'], subject=email['subject'], body=email['body'])
 ```
 
-**Results after 90 days**:
-- **B2B leads**: 130 qualified buyers
-- **Retailers contacted**: 80
-- **Distributors contacted**: 50
-- **Samples sent**: 35
-- **Wholesale accounts opened**: 18
-- **Monthly recurring revenue**: $45k
-- **Margin improvement**: 25% (vs Amazon)
+**Results after 90 days** (演示流程，公司名为虚构示例，不对应真实客户，不代表成交结果):
+- 从 B2B 需求分析到触达的一轮工作流示例
+- 实际打开 / 回复 / 成交取决于行业、产品、名单质量与你的跟进
 
-**ROI**:
-- Amazon fees saved: $12k/month
-- TokoAI subscription: $1,500/month
-- **Net benefit**: $10.5k/month
+**可参考的公开实测（非承诺）：**
+- 截至 2026-08-07，累计 2,054 封可追踪冷邮件（企业邮箱口径）：独立打开率 32.3%、重复打开率 245%、人均阅读 2.45 次
+- 51Toko（拓客AI, TokoAI）按项目计费（报价按范围确定）；我们不保证具体成交，交付可核实的对口买家与意向报告
 
 ## Key Benefits for E-commerce
 
@@ -255,7 +249,7 @@ for buyer in b2b_customers:
         email=buyer['email'],
         first_name=buyer['contact_name'],
         company=buyer['company_name'],
-        tags=["B2B", "wholesale", "TokoAI"],
+        tags=["B2B", "wholesale", "51Toko (拓客AI, TokoAI)"],
         note=f"Import volume: ${buyer['import_volume']}"
     )
 ```
@@ -270,7 +264,7 @@ for buyer in b2b_customers:
         username=buyer['company_name'].lower().replace(' ', '_'),
         role="wholesale_customer",
         meta_data={
-            "source": "TokoAI",
+            "source": "51Toko (拓客AI, TokoAI)",
             "buyer_type": buyer['type']
         }
     )
@@ -338,21 +332,21 @@ Track these KPIs:
 1. **Identify B2B-ready products**: Which products work for wholesale?
 2. **Set B2B pricing**: Calculate wholesale prices
 3. **Create B2B landing page**: Separate from B2C store
-4. **Sign up for TokoAI**: [https://51toko.com](https://51toko.com)
+4. **Sign up for 51Toko (拓客AI, TokoAI)**: [https://51toko.com](https://51toko.com)
 5. **Find B2B buyers**: Search for retailers and distributors
 6. **Start outreach**: Contact matched buyers
 7. **Fulfill orders**: Set up B2B fulfillment process
 
 ## Conclusion
 
-TokoAI helps e-commerce businesses:
+51Toko (拓客AI, TokoAI) helps e-commerce businesses:
 - ✅ Expand from B2C to B2B
 - ✅ Find wholesale buyers and distributors
 - ✅ Increase margins and reduce platform dependency
 - ✅ Build stable, recurring revenue
 - ✅ Scale beyond marketplace limitations
 
-**Ready to grow your e-commerce business into B2B?** [Start your free trial](https://51toko.com)
+**Ready to grow your e-commerce business into B2B?** [Contact us](https://51toko.com)
 
 ---
 

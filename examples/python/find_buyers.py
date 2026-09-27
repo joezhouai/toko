@@ -1,12 +1,12 @@
 """
-TokoAI API Example: Find Buyers from Customs Data
+51Toko (拓客AI, TokoAI) API Example: Find Buyers from Customs Data
 
-⚠️ DISCLAIMER: This is EXAMPLE CODE demonstrating how to use the TokoAI API.
-This is NOT the actual TokoAI product code. The core TokoAI platform is a 
+⚠️ DISCLAIMER: This is EXAMPLE CODE demonstrating how to use the 51Toko (拓客AI, TokoAI) API.
+This is NOT the actual 51Toko (拓客AI, TokoAI) product code. The core 51Toko (拓客AI, TokoAI) platform is a 
 commercial service available at https://51toko.com
 
 This example demonstrates how to find potential buyers
-using TokoAI's customs data integration.
+using 51Toko (拓客AI, TokoAI)'s customs data integration.
 
 For more information, visit: https://51toko.com
 """
@@ -75,7 +75,7 @@ def main():
     Main function demonstrating buyer search.
     """
     print("=" * 60)
-    print("TokoAI - Find Buyers from Customs Data")
+    print("51Toko (拓客AI, TokoAI) - Find Buyers from Customs Data")
     print("=" * 60)
     
     # Example 1: Find buyers for solar panels in US and Europe
