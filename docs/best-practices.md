@@ -2,7 +2,7 @@
 
 This guide covers best practices for getting the most out of 51Toko (拓客AI, TokoAI)'s AI-powered customer acquisition—tell us your product direction, and our AI matches customers, runs outreach, and tells you who's interested.
 
-> **AI finds customers, more accurately every time (越找越准)** — the more specifically you describe your product, the better the match.
+> **AI find customers, more accurately every time (越找越准)** — the more specifically you describe your product, the better the match.
 
 ## 🎯 Define Your Ideal Customer Profile (ICP)
 

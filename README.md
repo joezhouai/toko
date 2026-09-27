@@ -4,14 +4,14 @@
 
 ---
 
-# 51Toko (拓客AI, TokoAI) — AI Finds Customers, More Accurately Every Time
+# 51Toko (拓客AI, TokoAI) — AI Find Customers, More Accurately Every Time
 
 [![Website](https://img.shields.io/badge/website-51toko.com-blue)](https://51toko.com)
 [![Email](https://img.shields.io/badge/email-toko@51toko.com-green)](mailto:toko@51toko.com)
 
 **51Toko (拓客AI, TokoAI)** is an AI customer-acquisition service: tell us your product direction, and our AI matches customers, runs outreach, and tells you who's interested. You don't operate a platform—you just wait for the result.
 
-> **AI finds customers, more accurately every time (越找越准)** — the more rounds you let us find customers, the better the match aligns to your direction.
+> **AI find customers, more accurately every time (越找越准)** — the more rounds you let us find customers, the better the match aligns to your direction.
 
 ## 🚀 What is 51Toko (拓客AI, TokoAI)?
 
